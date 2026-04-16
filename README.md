@@ -5,16 +5,13 @@
 In the simplest terms, an integer is a whole number. It can be positive, negative, or zero, but it can never have a decimal point or a fractional part.
 
   - Valid integers: 5, -42, 0, 1000
-
   - Not integers: 5.5, 3.14, 1/2
 
 ### 2. Python Code Examples
 The blue boxes show how a computer handles these numbers:
 
   - Assignment: x = 10 and y = -3 tells the computer to store those specific whole numbers into variables named x and y.
-
   - Output: When the code simply says x, the computer returns its value: 10.
-
   - Type Checking: The command print(type(x)) asks the computer, "What kind of data is stored in x?"
 
 The result <class 'int'> is the computer’s way of saying, "This is an integer."
@@ -23,9 +20,7 @@ The result <class 'int'> is the computer’s way of saying, "This is an integer.
 Since integers are "clean" numbers with no decimals, they are used for things that can be counted precisely:
 
   - Counts: The number of people in a room or items in a shopping cart (you can't have 2.5 people).
-
   - IDs: Unique identification numbers, like a student ID or a database record number.
-
   - Discrete Quantities: Anything that exists in distinct, separate units (e.g., the number of days in a month).
 
 ## Floating-Point Number
@@ -45,7 +40,6 @@ Type Checking: When the code runs print(type(a)), the output is <class 'float'>.
 Floats are used for data that isn't "all or nothing." They are essential for:
 
   - Continuous Measurements: Things like temperature ($72.5$ degrees), weight ($150.2$ lbs), or height.
-
   - Financial Values: Prices like $\$19.99$.Statistical Calculations: Averages (e.g., the average of $1$ and $2$ is $1.5$).
 
 ## String
@@ -67,9 +61,7 @@ You can't add "10" + 5, because the computer sees the first one as a word.
 Strings are the most flexible data type because they can hold almost anything:
 
   - Names: Usernames, employee names, or city names (like "Yerevan").
-
   - Categories/Labels: Identifying types of data, like "High", "Medium", or "Low".
-
   - Descriptions: Long paragraphs of text or product reviews.
 
 ## Boolean
@@ -77,7 +69,17 @@ This image introduces the Boolean, which is the simplest but perhaps most powerf
 While integers and strings can have infinite variations, a Boolean can only ever be one of two things: True or False.
 
 Think of it like a light switch—it is either on or off.
-# 1. The Basics
+### 1. The Basics
   - Values: In Python, these are written as True and False (note the capital letters).
-
   - Type Label: If you run print(type(is_active)), Python identifies it as <class 'bool'>.
+
+### 2. Booleans from Comparisons
+The most common way Booleans are created is through "questions" (comparisons) you ask the computer.
+  - In the image example: x = 10 followed by x > 5.
+  - The computer evaluates this and returns True because 10 is indeed greater than 5.
+
+### 3. Why are they important?
+Booleans are the "brain" of any program. They allow the computer to make decisions:
+  - Logical conditions: "If the user is logged in (True), show the dashboard."
+  - Filtering data: "Show only the products that are in stock (is_in_stock = True)."
+  - Decision making: "If the battery is less than 15%, turn on power saving mode."
