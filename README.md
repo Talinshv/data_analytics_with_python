@@ -83,3 +83,61 @@ Booleans are the "brain" of any program. They allow the computer to make decisio
   - Logical conditions: "If the user is logged in (True), show the dashboard."
   - Filtering data: "Show only the products that are in stock (is_in_stock = True)."
   - Decision making: "If the battery is less than 15%, turn on power saving mode."
+## Variables
+This image explains the concept of Variables. 
+If the data types you just learned (integers, strings, booleans) are the "objects," then variables are the boxes you put them in so you can find them later.
+
+### 1. What is a Variable?
+The image defines it as a named reference. Instead of just having a piece of data floating around, you give it a name so the computer knows how to find it in its memory.
+
+### 2. Why do we need them?
+The image makes a great point: "Without variables, automation is impossible."
+
+  - Avoid Repetition: If you use a number like $3.14159$ fifty times in your code, it's easier to just name it pi.
+  - Readability: Seeing total_price in code makes much more sense than just seeing a random number like 142.5.
+  - Updating Values: If the price changes, you only have to change it once where the variable is defined, rather than searching through every line of code.
+
+### 3. Creating a Variable
+The image shows the "Assignment" process using the = sign. This is a bit different from math:
+  In Math: = means "these two things are equal."
+  In Programming: = means "take the value on the right and stuff it into the name on the left."
+  - x = 10
+  - The computer creates a spot in its memory.
+  - It labels that spot x.
+  - It puts the integer 10 inside.
+
+## Variables Can Store Any Data Type
+A variable is a universal container—it doesn't care what you put inside it, as long as it's a valid data type.
+
+### 1. The "Big Four" in Action
+The image shows one variable for each of the data types we discussed:
+  - Integer: count = 100 (Whole number)
+  - Float: price = 19.99 (Decimal number)
+  - String: customer_name = "Alice" (Text in quotes)
+  - Boolean: is_active = True (Logical truth)
+
+### 2. Dynamic Typing (The "Important" Note)
+Variables do not have a fixed type.
+In some older programming languages, you have to tell the computer, "This variable will only ever hold integers." If you try to put a string in it later, the program crashes.
+### Python is different:
+  - A variable's "identity" comes from whatever is inside it at that exact moment.
+  - If you have x = 10 (an integer) and then later write x = "Hello", Python just swaps the old integer for the new string. It's flexible!
+
+## Reassigning Variables
+It is the "variable" part of a variable. It shows that you aren't just stuck with the first value you choose; you can update that "box" at any time.
+
+### 1. How Reassignment Works
+The code shows a two-step process:
+  - Initial Assignment: x = 5. The computer creates a space called x and puts a $5$ in it.
+  - The Update: x = 20. The computer doesn't create a new variable. Instead, it goes back to the box labeled x, tosses out the $5$, and drops in a $20$.
+
+When you ask the computer for x afterward, it only remembers the most recent value. The old value is gone.
+
+### 2. Why is this useful?
+In the real world, data is rarely static. We use reassignment for:
+  - Keeping Score: score = score + 1 (Updating your current points).
+  - Changing States: is_playing = False (When a user hits the stop button).
+  - Tracking Progress: current_page = 2 (When you click "Next" in an e-reader).
+
+
+
