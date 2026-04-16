@@ -1,32 +1,32 @@
 # data_analytics_with_python
 # Data Types
-# Integers
+## Integers
 ## 1. What is an Integer?
 In the simplest terms, an integer is a whole number. It can be positive, negative, or zero, but it can never have a decimal point or a fractional part.
 
-Valid integers: 5, -42, 0, 1000
+  - Valid integers: 5, -42, 0, 1000
 
-Not integers: 5.5, 3.14, 1/2
+  - Not integers: 5.5, 3.14, 1/2
 
 ## 2. Python Code Examples
 The blue boxes show how a computer handles these numbers:
 
-Assignment: x = 10 and y = -3 tells the computer to store those specific whole numbers into variables named x and y.
+  - Assignment: x = 10 and y = -3 tells the computer to store those specific whole numbers into variables named x and y.
 
-Output: When the code simply says x, the computer returns its value: 10.
+  - Output: When the code simply says x, the computer returns its value: 10.
 
-Type Checking: The command print(type(x)) asks the computer, "What kind of data is stored in x?"
+  - Type Checking: The command print(type(x)) asks the computer, "What kind of data is stored in x?"
 
 The result <class 'int'> is the computer’s way of saying, "This is an integer."
 
 ## 3. Common Use Cases
 Since integers are "clean" numbers with no decimals, they are used for things that can be counted precisely:
 
-Counts: The number of people in a room or items in a shopping cart (you can't have 2.5 people).
+  - Counts: The number of people in a room or items in a shopping cart (you can't have 2.5 people).
 
-IDs: Unique identification numbers, like a student ID or a database record number.
+  - IDs: Unique identification numbers, like a student ID or a database record number.
 
-Discrete Quantities: Anything that exists in distinct, separate units (e.g., the number of days in a month).
+  - Discrete Quantities: Anything that exists in distinct, separate units (e.g., the number of days in a month).
 
 # Floating-Point Number
 ## 1. What is a Float?
@@ -44,9 +44,9 @@ Type Checking: When the code runs print(type(a)), the output is <class 'float'>.
 # 3. When do we use Floats?
 Floats are used for data that isn't "all or nothing." They are essential for:
 
-  Continuous Measurements: Things like temperature ($72.5$ degrees), weight ($150.2$ lbs), or height.
+  - Continuous Measurements: Things like temperature ($72.5$ degrees), weight ($150.2$ lbs), or height.
 
-  Financial Values: Prices like $\$19.99$.Statistical Calculations: Averages (e.g., the average of $1$ and $2$ is $1.5$).
+  - Financial Values: Prices like $\$19.99$.Statistical Calculations: Averages (e.g., the average of $1$ and $2$ is $1.5$).
 
 ## String
 # 1. What is a String?
@@ -66,8 +66,8 @@ You can't add "10" + 5, because the computer sees the first one as a word.
 # 3. Common Use Cases
 Strings are the most flexible data type because they can hold almost anything:
 
-  Names: Usernames, employee names, or city names (like "Yerevan").
+  - Names: Usernames, employee names, or city names (like "Yerevan").
 
-  Categories/Labels: Identifying types of data, like "High", "Medium", or "Low".
+  - Categories/Labels: Identifying types of data, like "High", "Medium", or "Low".
 
-  Descriptions: Long paragraphs of text or product reviews.
+  - Descriptions: Long paragraphs of text or product reviews.
